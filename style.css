@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 103px;
+    height: 31px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    width: 296px;
+    height: 248px;
+    padding: 5px 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+}
+
+.card h1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.card label {
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.card input {
+    width: 272px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.card button {
+    width: 288px;
+    height: 31px;
+    padding: 3px 7px;
+    margin-top: 15px;
+    background-color: #f0c14b;
+    border-top-color: #949494;
+    border: 1px solid lightgrey;
+    background-image: linear-gradient(#f7da90, #e2b33b);
+    border-radius: 4px;
+}
+
+.card a {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+
+.icon::before {
+    display: inline-block;
+    content: "";
+    border-top: 4px solid transparent;
+    border-left: 4px solid #0066c0;
+    border-bottom: 4px solid transparent;
+    margin-right: 10px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+.newuser {
+    justify-content: center;
+    display: flex;
+}
+
+.newuser p {
+    font-size: 14px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.newuser::before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    top: 7px;
+    border-top: 2px solid lightgray;
+    margin-right: 10px;
+}
+
+.newuser::after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    top: 7px;
+    border-top: 2px solid lightgrey;
+    margin-left: 10px;
+}
+
+
+.butn {
+    width: 348px;
+    height: 31px;
+    margin: 15px auto;
+    background-color: #e7e9ec;
+    background-image: linear-gradient(#f9f9fa, #e7e9ec);
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+}
+
+.butn button {
+    width: 348px;
+    height: 31px;
+}
+
+hr {
+    size: 8px;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px auto 15px auto;
+}
+
+footer .links a {
+    font-size: 12px;
+}
+
+footer::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    margin-top: -35px;
+    border-top: 1px solid transparent;
+    box-shadow: 0 10px 15px -20px #333;
+}
+
+footer p {
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+}
